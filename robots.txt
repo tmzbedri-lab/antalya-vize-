@@ -1,0 +1,42 @@
+# Antalya Vize Danışmanlığı — robots.txt
+# Tüm arama motorları ve botlar için erişim açıktır.
+
+User-agent: *
+Allow: /
+
+# Arama motoru botları
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Yapay zekâ tarayıcıları (AI asistanlarının siteyi görebilmesi için açık)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://antalyavizedanismanligi.com/sitemap.xml
